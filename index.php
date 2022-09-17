@@ -10,7 +10,7 @@
 			<div>
 				<?php 
 					if(isset($_POST['input'])){
-						echo gettype($_POST['input']);
+						echo (int) gettype($_POST['input']);
 					}
 				?>
 			</div>
